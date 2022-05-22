@@ -1,0 +1,88 @@
+{
+  "news_articles": [
+    {
+      "id": 1,
+      "title": "My First News Article",
+      "body": "Here are some quick news.The War has started.",
+      "author": "Andrei"
+    }
+  ],
+  "fundraisers": [
+    {
+      "id": 1,
+      "fundraiser_title": "Food for the pets of Ukraine",
+      "fundraiser_details": "Help us feed the pets of Ukraine",
+      "fundraiser_recipient_name": "Gigelius",
+      "fundraiser_bank_account": "IBANQQQQ"
+    },
+    {
+      "id": 2,
+      "fundraiser_title": "Help Rebuild Kiev",
+      "fundraiser_details": "We're collecting donations to help the citizens rebuild the capital city of Kiev",
+      "fundraiser_recipient_name": "Gigelius Ukraineanu",
+      "fundraiser_bank_account": "IBANQQQQ1231241255112"
+    },
+    {
+      "fundraiser_title": "Food for the People of Ukraine",
+      "fundraiser_details": "Donate to our fundation to help us feed the homeless people of ukraine after the war",
+      "fundraiser_recipient_name": "Ukraine Red Cross ",
+      "fundraiser_bank_account": "RWEOUWQOUOQ",
+      "id": 3
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "admin_id_auth0": "google-oauth2|108756263942986646301"
+    },
+    {
+      "id": 2,
+      "admin_id_auth0": "auth0|6287fa978b93a40068ef065e"
+    }
+  ],
+  "alerts": [
+    {
+      "alert_name": "Land Invasion Alert",
+      "alert_details": "4000 Russian Troops spotted near Harkov",
+      "id": 2
+    },
+    {
+      "alert_name": "qqweqweqweqwwe",
+      "alert_details": "qweqweqweqewq",
+      "id": 3
+    }
+  ],
+  "safe_locations": [
+    {
+      "id": 1,
+      "safe_spot_address": "QqqqqQ",
+      "recommended_for": "Bombshelter"
+    }
+  ],
+  "requests": [
+    {
+      "personal_name": "andygabi99@yahoo.com",
+      "request": "Test",
+      "email": "andygabi99@yahoo.com",
+      "auth0_id": "auth0|627e6e0548c945006f467dad",
+      "nr_telefon": "0728268401",
+      "id": 2
+    },
+    {
+      "personal_name": "andygabi99@yahoo.com",
+      "request": "TestTest",
+      "email": "andygabi99@yahoo.com",
+      "auth0_id": "auth0|627e6e0548c945006f467dad",
+      "nr_telefon": "0728268401",
+      "id": 3
+    },
+    {
+      "personal_name": "pweb@user.com",
+      "request": "TestTEst",
+      "email": "pweb@user.com",
+      "auth0_id": "auth0|6287fa33f685fa006969c9e7",
+      "nr_telefon": "TestTest",
+      "id": 4
+    }
+  ]
+}
