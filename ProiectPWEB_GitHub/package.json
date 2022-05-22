@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "react-json-pretty": "^2.2.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.9.0"
+  }
+}
