@@ -71,9 +71,28 @@ const Contact = () => {
             <div class={styles.mainbackground}>
             <div class={styles.topnav}>
     
-                    <button class={styles.btn} onClick={() => {
-                        navigate("/HomeUser");
-                    }}>Home</button>
+            <button class={styles.btn} onClick={() => {
+                    navigate("/HomeUser");
+                }}>Home</button>
+            <button class={styles.btn} onClick={() => {
+                    navigate("/UserNews");
+                }}>News</button>
+            <button class={styles.btn} onClick={() => {
+                    navigate("/UserSafeLocations");
+                }}>Safe Locations</button>
+            <button class={styles.btn}  onClick={() => {
+                    navigate("/UserFundraisers");
+                }}>Fundraisers</button>
+            <button class={styles.btn} onClick={() => {
+                    navigate("/UserAlerts");
+                }}>Alerts</button>
+            <button class={styles.btn} onClick={() => {
+                        navigate("/UserRequestsAdd");
+                    }}>Send Request</button>
+			<button class={styles.btn} onClick={() => {
+                    navigate("/Contact");
+                }}>Contact</button>
+            <LogoutButton />
                 </div>
                 <div class={styles.mainpagebox}>
                     <h3> Contact us at 0728268401 for admin priviliges or send us a request from your account</h3>
